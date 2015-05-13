@@ -11,7 +11,7 @@ Inside city there are cities etc..
 This can keep on going till nth level.
 
 a common way to represent this data woul be in a form of recursive nested json eg:
-
+<pre>
 { 
 	"countries":
 	[
@@ -110,7 +110,7 @@ a common way to represent this data woul be in a form of recursive nested json e
 		}
 	]
 }
- 
+</pre>
 Now if one wants to search any country name, ueser might like to know what all cities/states/districts etc lie under it ie:
 searching for a parent means also displaying all its the children in the search results till nth level. where n can be any number.
 
